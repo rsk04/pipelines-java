@@ -42,6 +42,32 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+	<repository>
+	  <id>rskchennai</id>
+	  <url>https://pkgs.dev.azure.com/rskchennai/6a9d1af0-0778-4dd2-9e3a-99103f25f8d4/_packaging/AzureDevops/maven/v1</url>
+	  <releases>
+		<enabled>true</enabled>
+	  </releases>
+	  <snapshots>
+		<enabled>true</enabled>
+	  </snapshots>
+	</repository>
+  </distributionManagement>
+  
+  <repositories>
+	<repository>
+	  <id>rskchennai</id>
+	  <url>https://pkgs.dev.azure.com/rskchennai/6a9d1af0-0778-4dd2-9e3a-99103f25f8d4/_packaging/AzureDevops/maven/v1</url>
+	  <releases>
+		<enabled>true</enabled>
+	  </releases>
+	  <snapshots>
+		<enabled>true</enabled>
+	  </snapshots>
+	</repository>  
+  </repositories>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
