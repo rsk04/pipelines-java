@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/rskchennai/ci-cd%20pipeline/_apis/build/status/rsk04.pipelines-java?branchName=master)](https://dev.azure.com/rskchennai/ci-cd%20pipeline/_build/latest?definitionId=3&branchName=master)
 
 # Contributing
 
